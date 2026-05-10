@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developers.reddit.com/schema/config-file.v1.json",
+  "name": "recidivwatch",
+  "blocks": {
+    "entry": "src/server/index.ts",
+    "triggers": [
+      "onModAction"
+    ]
+  },
+  "dev": {
+    "subreddit": "recidivwatch_dev"
+  }
+}
